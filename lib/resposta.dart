@@ -13,7 +13,8 @@ class Resposta extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+          backgroundColor: MaterialStateProperty.all<Color>(
+              Color.fromARGB(255, 171, 124, 174)),
           foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
         ),
         child: Text(texto),

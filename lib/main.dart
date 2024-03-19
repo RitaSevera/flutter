@@ -74,7 +74,9 @@ class _PerguntaAppState extends State<PerguntaApp> {
       home: Scaffold(
         //widget
         appBar: AppBar(
-          title: const Text("Flutter"), //widget
+          title: const Text("Flutter"),
+          centerTitle: true,
+          backgroundColor: Color.fromARGB(255, 171, 124, 174), //widget
         ),
         body: temPergSelecionada
             ? Questionario(
